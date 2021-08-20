@@ -120,4 +120,24 @@ for letter in user_word:
 # Print the word assigned to word_without_vowels.
 print(word_without_vowels)
 
-    
+   
+
+
+
+
+#take any non-negative and non-zero integer number and name it c0;
+co = 15
+steps = 0
+
+#if c0 ≠ 1, skip to point 2.
+while co != 1:
+    steps = steps + 1
+    #if it's even, evaluate a new c0 as c0 ÷ 2;
+    if co % 2 == 0:
+        co = co // 2
+    else:
+        #otherwise, if it's odd, evaluate a new c0 as 3 × c0 + 1;
+        co = 3 * co + 1
+    print(co)
+print("steps", steps)
+        
