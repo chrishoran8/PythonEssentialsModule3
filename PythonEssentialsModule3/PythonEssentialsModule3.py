@@ -51,3 +51,14 @@ for i in range(1,6):
 
 # Write a print function with the final message.
 
+#lab on chupacabra
+exitWord = "chu"
+inputWord = ""
+
+while True:
+    inputWord = input("Please input a word")
+    if inputWord == exitWord:
+        break
+    
+print("You've successfully left the loop.")
+    
