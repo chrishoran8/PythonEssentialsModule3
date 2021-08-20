@@ -41,4 +41,13 @@ print("Well done, muggle! You are free now.")
 
 
 
+#lab on miissipi
+import time
+
+for i in range(1,6):
+    # Body of the loop - print the loop iteration number and the word "Mississippi".
+    print(i,"Mississippi")
+    time.sleep(1)
+
+# Write a print function with the final message.
 
