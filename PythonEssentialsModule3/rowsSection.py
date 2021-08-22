@@ -75,7 +75,7 @@ for i in range(8): #this is our 8 rows
 print()
 #nestedListComprehension
 ###############################################################################
-
+#can we use list comprehension to be even more efficient??? of course :) 
 #quickboard = create 8 squares inside 8 rows
 #quickboard = [[create 8 Squares] create 8 rows ]
 #quickboard = [[expression] for item in iterable]
