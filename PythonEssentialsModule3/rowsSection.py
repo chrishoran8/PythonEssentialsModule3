@@ -70,8 +70,7 @@ for i in range(8): #create our chess board which needs 8 rows
 
 print()
 print("nested For loop board")
-for i in range(8): #this is our 8 rows
-    print(nestedForBoard[i])
+for i in range(8): print(nestedForBoard[i])
 print()
 #nestedListComprehension
 ###############################################################################
@@ -79,8 +78,6 @@ print()
 #quickboard = create 8 squares inside 8 rows
 #quickboard = [[create 8 Squares] create 8 rows ]
 #quickboard = [[expression] for item in iterable]
-quickBoard = [["r"+str(i)+",c"+str(j) for i in range(8)] for j in range(8)]
-
-print("nested list comprehension board")
-for i in range(8): #this is our 8 rows
-    print(quickBoard[i])
+print("quickboard created and printed in two rows!!! ")
+quickBoard = [["r"+str(i)+",c"+str(j) for i in range(8)] for j in range(8)] #create complete board
+for i in range(8): print(quickBoard[i]) #print complete board
