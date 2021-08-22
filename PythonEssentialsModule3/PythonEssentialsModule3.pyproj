@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4aa13483-163f-4fc9-a55f-3e68e6e45a7c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonEssentialsModule3.py</StartupFile>
+    <StartupFile>rowsSection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonEssentialsModule3.py" />
+    <Compile Include="rowsSection.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

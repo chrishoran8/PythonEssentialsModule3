@@ -141,3 +141,5 @@ while co != 1:
     print(co)
 print("steps", steps)
         
+
+
