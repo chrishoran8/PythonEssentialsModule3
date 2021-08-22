@@ -78,6 +78,8 @@ print()
 #quickboard = create 8 squares inside 8 rows
 #quickboard = [[create 8 Squares] create 8 rows ]
 #quickboard = [[expression] for item in iterable]
-print("quickboard created and printed in two rows!!! ")
+
 quickBoard = [["r"+str(i)+",c"+str(j) for i in range(8)] for j in range(8)] #create complete board
+
+print("quickboard created and printed in two rows!!! ")
 for i in range(8): print(quickBoard[i]) #print complete board
