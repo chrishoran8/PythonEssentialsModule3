@@ -83,3 +83,19 @@ quickBoard = [["r"+str(i)+",c"+str(j) for i in range(8)] for j in range(8)] #cre
 
 print("quickboard created and printed in two rows!!! ")
 for i in range(8): print(quickBoard[i]) #print complete board
+print()
+
+
+t = [[3-i for i in range (3)]for j in range(3)]
+s=0
+for i in range(3): 
+    s +=t[i][i]
+    #you would get 9
+    #s +=t[i][0]
+print(s)
+
+#the stop of the range isnt included.....
+my_list=[i for i in range(-1,2)]
+print(my_list[0])
+print(my_list[1])
+print(my_list[2])
